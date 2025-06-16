@@ -6,8 +6,6 @@ return {
       "MunifTanjim/nui.nvim",
     },
     event = "VeryLazy", -- Lazy load for performance
-    config = function()
-      require("hardtime").setup()
-    end,
+    opts = {},
   },
 }
